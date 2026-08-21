@@ -1,0 +1,80 @@
+# example org file 
+* habits :habit:
+** TODO Floss
+SCHEDULED: <2026-08-21 Fri ++1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2026-08-20 Thu 08:54]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-20 Thu 08:54]
+:END:
+** TODO Cat insulin, litter, food
+SCHEDULED: <2026-08-21 Fri ++1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2026-08-20 Thu 08:54]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-20 Thu 08:54]
+:END:
+
+** TODO Daven
+SCHEDULED: <2026-08-21 Fri ++1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2026-08-20 Thu 08:55]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-20 Thu 08:55]
+- State "DONE"       from "TODO"       [2026-03-08 Sun 22:04]
+- State "DONE"       from "TODO"       [2025-11-26 Wed 00:05]
+- State "DONE"       from "TODO"       [2025-11-05 Wed 14:44]
+- State "DONE"       from "TODO"       [2025-11-03 Mon 23:46]
+- State "DONE"       from "TODO"       [2025-11-01 Sat 11:29]
+- State "DONE"       from "TODO"       [2025-11-01 Sat 11:26]
+- State "DONE"       from "TODO"       [2025-09-25 Thu 12:57]
+- State "DONE"       from "TODO"       [2025-09-10 Wed 16:33]
+- State "DONE"       from "TODO"       [2025-09-05 Fri 01:19]
+- State "DONE"       from "TODO"       [2025-08-23 Sat 21:25]
+- State "DONE"       from "TODO"       [2025-08-20 Wed 22:35]
+- State "DONE"       from "TODO"       [2025-08-11 Mon 22:33]
+- State "DONE"       from "TODO"       [2025-08-10 Sun 11:36]
+- State "DONE"       from "TODO"       [2025-08-07 Thu 15:17]
+- State "DONE"       from "TODO"       [2025-08-06 Wed 23:34]
+- State "DONE"       from "TODO"       [2025-08-04 Mon 15:29]
+- State "DONE"       from "TODO"       [2025-08-03 Sun 22:14]
+- State "DONE"       from "TODO"       [2025-08-01 Fri 19:39]
+- State "DONE"       from "TODO"       [2025-07-31 Thu 10:54]
+- State "DONE"       from "TODO"       [2025-07-26 Sat 21:42]
+- State "DONE"       from "TODO"       [2025-07-25 Fri 21:19]
+:END:
+
+** TODO Put phone away
+SCHEDULED: <2026-08-21 Fri .+1d>
+:PROPERTIES:
+:LAST_REPEAT: [2026-08-20 Thu 09:29]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-20 Thu 09:29]
+:END:
+** TODO Flashcards
+SCHEDULED: <2026-08-21 Fri ++1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2026-08-20 Thu 09:18]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-20 Thu 09:18]
+:END:
+
+** TODO Gym
+SCHEDULED: <2026-03-16 Mon ++7d/9d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2026-03-08 Sun 22:04]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-03-08 Sun 22:04]
+:END:
+

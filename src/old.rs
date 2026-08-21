@@ -32,3 +32,21 @@
 
 //     Ok(())
 // }
+
+// fn draw_talmud() -> std::io::Result<()> {
+//     let img = image::open("talmud_crop.png").unwrap().into_luma8();
+//     let buf = img.into_raw();
+//     let mut text_file = File::create("./print_talmud.txt")?;
+//     write!(text_file, "{:#?}", &buf)?;
+
+//     let mut raw_file = File::create("./img.raw")?;
+//     raw_file.write(&buf)?;
+
+//     // file.write(&buf)?;
+//     // Command::new("sh")
+//     //     .arg("./display_raw.sh")
+//     //     .output()
+//     //     .expect("Failed to execute shell");
+
+//     Ok(())
+// }
