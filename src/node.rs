@@ -1,4 +1,4 @@
-use chrono::{NaiveDate, Utc};
+use chrono::{Local, NaiveDate};
 use cosmic_text::Attrs;
 
 pub struct MarkdownNode<'a> {
@@ -39,21 +39,21 @@ impl<'a> HabitNode<'a> {
 
     pub fn is_scheduled_past(&self) -> bool {
         if let Some(sched) = self.scheduled {
-            return sched < Utc::now().date_naive();
+            return sched < Local::now().date_naive();
         }
         return false;
     }
 
     pub fn is_scheduled_today(&self) -> bool {
         if let Some(sched) = self.scheduled {
-            return sched == Utc::now().date_naive();
+            return sched == Local::now().date_naive();
         }
         return false;
     }
 
     pub fn is_scheduled_later(&self) -> bool {
         if let Some(sched) = self.scheduled {
-            return sched > Utc::now().date_naive();
+            return sched > Local::now().date_naive();
         }
         return false;
     }
@@ -65,7 +65,7 @@ impl<'a> HabitNode<'a> {
         }
         // habits
         if let Some(last) = self.last_repeat {
-            if last == Utc::now().date_naive()
+            if last == Local::now().date_naive()
                 && (self.is_scheduled_today() || self.is_scheduled_later())
             {
                 return true;
