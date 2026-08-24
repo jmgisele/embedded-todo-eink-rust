@@ -13,8 +13,10 @@ mod save;
 
 fn main() -> std::io::Result<()> {
     let files_to_parse: Vec<String> = vec![
-        "/home/jgisele/emacs/org/SHARED/habits.org".to_owned(), // these are the files you want to parse
-        "/home/jgisele/emacs/org/SHARED/todos.org".to_owned(),
+        // "/home/jgisele/emacs/org/SHARED/habits.org".to_owned(), // these are the files you want to parse
+        // "/home/jgisele/emacs/org/SHARED/todos.org".to_owned(),
+        "/media/backups/SHARED/habits.org".to_owned(),
+        "/media/backups/SHARED/todos.org".to_owned(),
     ];
 
     draw_org(files_to_parse, true)?;
