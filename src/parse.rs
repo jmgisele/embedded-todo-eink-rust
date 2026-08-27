@@ -100,7 +100,15 @@ pub fn add_todo_symbols(habits: &mut Vec<HabitNode>) {
 
 pub fn sort_todos<'a>(habits: &Vec<HabitNode<'a>>) -> Vec<HabitNode<'a>> {
     let mut sorted: Vec<HabitNode> = Vec::new();
-    let mut separator = HabitNode::new(habits.first().unwrap().attrs.clone());
+    let first = habits.first();
+    let mut separator;
+
+    if let Some(habit) = first {
+        separator = HabitNode::new(habit.attrs.clone());
+    } else {
+        return Vec::new();
+    }
+
     // extremely naiive soln TODO please come back to me
     separator.attrs = separator
         .attrs
