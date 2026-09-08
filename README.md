@@ -1,4 +1,5 @@
 <img src="https://raw.githubusercontent.com/jmgisele/embedded-todo-eink-rust/main/kobo.png" alt="2011 model Kobo ereader showing a list of my todos" width="400" />
+
 # The World Needs a Networked TODO App Running On 2011 Embedded EInk
 
 And I'm here to provide.
