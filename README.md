@@ -1,5 +1,4 @@
-![2011 model Kobo ereader showing a list of my todos](kobo.png)
-
+<img src="https://raw.githubusercontent.com/jmgisele/embedded-todo-eink-rust/main/kobo.png" alt="2011 model Kobo ereader showing a list of my todos" width="200" />
 # The World Needs a Networked TODO App Running On 2011 Embedded EInk
 
 And I'm here to provide.
@@ -13,7 +12,7 @@ Highly idiosyncratic script I wrote to
 - copy that file over to a 2011 Kobo ereader via netcat,
 - and call the Kobo's built in rendering executable (which expects a file at a certain location) to render that image to the Kobo screen.
 
-I've got a [WebDAV](https://en.wikipedia.org/wiki/WebDAV) file server running on my home server, which is exposed to all my devices via [Tailscale](https://tailscale.com/docs/features/taildrive). My emacs org-mode todos and habits live in files on that server, meaning I can edit them from anywhere within my tailnet. (Think of it as a poor man's Dropbox or Google Drive). On that home server, I've got a [systemd](https://wiki.archlinux.org/title/Systemd) service hooked up to monitor any changes to those .org files. When I edit those files to eg mark a todo done, either on my desktop computer within emacs or via my phone with [Orgzly (Revived)](https://www.orgzlyrevived.com/), the systemd services sees that happen and calls the rust program contained in this repo, and my ereader updates its display with the new state of my todos. 
+I've got a [WebDAV](https://en.wikipedia.org/wiki/WebDAV) file server running on my home server, which is exposed to all my devices via [Tailscale](https://tailscale.com/docs/features/taildrive). My emacs org-mode todos and habits live in files on that server, meaning I can edit them from anywhere within my tailnet. (Think of it as a poor man's Dropbox or Google Drive). On that home server, I've got a [systemd](https://wiki.archlinux.org/title/Systemd) service hooked up to monitor any changes to those .org files. When I edit those files to eg mark a todo done, either on my desktop computer within emacs or via my phone with [Orgzly (Revived)](https://www.orgzlyrevived.com/), the systemd service sees that happen and calls the rust program contained in this repo, and my ereader updates its display with the new state of my todos. 
 
 # Literally, why?
 I like todos. (Really.) I hate my phone. I wanted my todos and daily habits to be visible without looking at an LED screen, seeing my email notifications or texts, etc.
